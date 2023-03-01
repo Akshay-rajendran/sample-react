@@ -5,7 +5,7 @@
   text-align: center;
 }
 
-.logo {
+/* .logo {
   height: 6em;
   padding: 1.5em;
   will-change: filter;
@@ -16,7 +16,7 @@
 }
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61fb9caa);
-}
+} */
 
 @keyframes logo-spin {
   from {
@@ -57,16 +57,38 @@ input{
 button{
   margin-top: 10px;
   margin-left: 10px;
+  margin-bottom: 10px;
+  background-color: black;
+  color:rgb(0, 136, 255);
 }
 button:hover{
-  background-color:rgb(17, 17, 17);
-  color:white;
+  background-color:rgb(230, 171, 84);
+  color:rgb(0, 0, 0);
 }
-.card{
+/* .card{ 
   background-color:rgb(44, 34, 4);
-  border-radius: 15px;
-}
+  border-radius: 15px; 
+ }   */
 body{
   background: rgb(228,171,51);
   background: linear-gradient(90deg, rgba(228,171,51,1) 0%, rgba(71,51,11,1) 79%, rgba(191,140,49,1) 100%);
+}
+.CardContainer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  
+}
+.Usercard{
+  margin-left: 10px;
+  margin-right: 10px;
+  border: 2px solid white;
+  background-color: cornsilk;
+  border-radius: 10px;
+  width: 300px;
+  height: 350px;
+}
+p{
+  color: aliceblue;
+  font-size:xx-large ;
 }
