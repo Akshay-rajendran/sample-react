@@ -41,7 +41,7 @@
   color: #888;
 }
 h1{
-  color: rgb(17, 17, 17);
+  color: rgb(84, 177, 238);
 }
 img{
   width: 300px;
@@ -70,7 +70,7 @@ button:hover{
   border-radius: 15px; 
  }   */
 body{
-  background-color: rgb(170, 214, 218);
+  background-color: rgb(5, 3, 0);
 }
 .CardContainer{
   display: flex;
@@ -90,7 +90,4 @@ body{
 p{
   color: aliceblue;
   font-size:xx-large ;
-}
-p{
-  color: black;
 }
