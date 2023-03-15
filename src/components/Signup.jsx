@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-
+import { Link } from 'react-router-dom'
 function Signup() {
 
 const [name,setname]=useState()
@@ -35,7 +35,13 @@ const [signup,setsignup]=useState(false)
             setnumber(e.target.value)
         }}/><br />
         <button onClick={submit} >submit</button>
+        <Link to="/Login">
+          <button>Login</button>
+        </Link>
         <button onClick={reset} >reset</button>
+         <Link to="/">
+          <button>back</button>
+         </Link>
         {
             signup &&
         
